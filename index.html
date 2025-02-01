@@ -25,7 +25,7 @@
 
 </head>
 <body class="sora-font">
-    <header class="relative h-64 items-center justify-center">
+    <header">
         <div>
             <div class="navbar bg-orange-100">
                 <div class="navbar-start">
@@ -75,9 +75,7 @@
                     <p class="py-6 text-center text-xl">
                         Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!
                     </p>
-                    <img class="justify-center"
-                    src="./c2-assets/hero-vegetables.png"
-                    class="max-w-sm rounded-lg shadow-2xl" />
+                    <img class="justify-center max-w-full max-h-full object-cover" src="./c2-assets/hero-vegetables.png"/>
                     
                   </div>
                 </div>
@@ -87,9 +85,166 @@
     </header>
     <main>
         <!-- section-1 -->
-         <section class="my-24">
-           <h3>Services</h3> 
+         <section class="my-40">
+           <h3 class="text-left text-4xl font-bold ml-20 mb-20 text-green-500">Services</h3>
+           <div class="grid grid-cols-1 lg:grid-cols-3 items-center space-y-2">
+             <!--card-1  -->
+           <div class="ml-20 card items-center bg-gray-200 w-96 shadow-xl">
+            <div class="avatar py-5">
+                <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                  <img src="./c2-assets/service.png" />
+                </div>
+              </div>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">24/7 Services</h2>
+              <p>We are avilable 24 hours and 7 days all the year round to be connected with you always and like to engage with a beautiful responsive communications</p>
+              
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div class="ml-20 card items-center bg-gray-200 w-96 shadow-xl">
+            <div class="avatar py-5">
+                <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                  <img src="./c2-assets/delivery.png" />
+                </div>
+              </div>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">24/7 Services</h2>
+              <p>We are avilable 24 hours and 7 days all the year round to be connected with you always and like to engage with a beautiful responsive communications</p>
+              
+            </div>
+          </div>
+          <!-- card-3 -->
+          <div class="ml-20 card items-center bg-gray-200 w-96 shadow-xl">
+            <div class="avatar py-5">
+                <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                  <img src="./c2-assets/healthy.png" />
+                </div>
+              </div>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">24/7 Services</h2>
+              <p>We are avilable 24 hours and 7 days all the year round to be connected with you always and like to engage with a beautiful responsive communications</p>
+              
+            </div>
+          </div>
+           </div>
+
+
          </section>
+<!-- section 2 popular products -->
+         <Section class="my-40">
+            <h3 class="text-left text-4xl font-bold ml-20 mb-20 text-green-500">Popular Products</h3>
+            <div class="grid lg:grid-cols-2 gap-2 p-2 h-screen">
+                <div class="hero bg-gradient-to-br from-green-500 to-green-100 h-screen">
+                    <div class="hero-content flex-col">
+                      
+                        <h1 class="text-3xl text-white font-bold">30%  off</h1>
+                        <p class="py-6">
+                         Discover a world of treats, toys,and essentials handpicked for  
+                        </p>
+                        <button class="btn bg-white text-black">Buy Now</button>
+                        <img class="relative bottom-0 right-0 w-60 h-50"
+                        src="./c2-assets/vegetable-offer.png"/>
+                    </div>
+                  </div>
+                  <!-- small cards collage -->
+                   <div class="grid grid-cols-3 grid-rows-3 gap-2 p-2">
+                    <div class="bg-white flex flex-cols space-x-5 py-5">
+                        <div class="bg-gray-300 border border-gray">
+                            <img class="px-2 py-2 w-20 bg-gray-200" src="./c2-assets/potato.jpg" alt="">
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-star"></i> 4.5
+                            <h4 class="text-xs font-bold">potato 1 KG</h4>
+                            <i class="fa-solid fa-dollar-sign"></i> 39.99
+                        </div>
+                    </div>
+                    <div class="bg-white flex flex-cols space-x-5 py-5">
+                        <div class="bg-gray-300">
+                            <img class="px-2 py-2 w-20 bg-gray-200" src="./c2-assets/onion.jpg" alt="">
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-star"></i> 4.5
+                            <h4 class="text-xs font-bold">Onion 1 KG</h4>
+                            <i class="fa-solid fa-dollar-sign"></i> 39.99
+                        </div>
+                    </div>
+                    <div class="bg-white flex flex-cols space-x-5 py-5">
+                        <div class="bg-gray-300">
+                            <img class="px-2 py-2 w-20 bg-gray-200" src="./c2-assets/tomato2.jpg" alt="">
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-star"></i> 4.5
+                            <h4 class="text-xs font-bold">Tomato  1 KG</h4>
+                            <i class="fa-solid fa-dollar-sign"></i> 39.99
+                        </div>
+                    </div>
+                    <div class="bg-white flex flex-cols space-x-5 py-5">
+                        <div class="bg-gray-300">
+                            <img class="px-2 py-2 w-20 bg-gray-200" src="./c2-assets/tomato.jpg" alt="">
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-star"></i> 4.5
+                            <h4 class="text-xs font-bold">tomato 1 KG</h4>
+                            <i class="fa-solid fa-dollar-sign"></i> 39.99
+                        </div>
+                    </div>
+                    <div class="bg-white flex flex-cols space-x-5 py-5">
+                        <div class="bg-gray-300">
+                            <img class="px-2 py-2 w-20 bg-gray-200" src="./c2-assets/onion.jpg" alt="">
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-star"></i> 4.5
+                            <h4 class="text-xs font-bold">Onion 1 KG</h4>
+                            <i class="fa-solid fa-dollar-sign"></i> 39.99
+                        </div>
+                    </div>
+                    <div class="bg-white flex flex-cols space-x-5 py-5">
+                        <div class="bg-gray-300">
+                            <img class="px-2 py-2 w-20 bg-gray-200" src="./c2-assets/potato.jpg" alt="">
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-star"></i> 4.5
+                            <h4 class="text-xs font-bold">potato 1 KG</h4>
+                            <i class="fa-solid fa-dollar-sign"></i> 39.99
+                        </div>
+                    </div>
+                    <div class="bg-white flex flex-cols space-x-5 py-5">
+                        <div class="bg-gray-300">
+                            <img class="px-2 py-2 w-20 bg-gray-200" src="./c2-assets/tomato.jpg" alt="">
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-star"></i> 4.5
+                            <h4 class="text-xs font-bold">tomato 1 KG</h4>
+                            <i class="fa-solid fa-dollar-sign"></i> 39.99
+                        </div>
+                    </div>
+                    <div class="bg-white flex flex-cols space-x-5 py-5">
+                        <div class="bg-gray-300">
+                            <img class="px-2 py-2 w-20 bg-gray-200" src="./c2-assets/onion.jpg" alt="">
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-star"></i> 4.5
+                            <h4 class="text-xs font-bold">Onion 1 KG</h4>
+                            <i class="fa-solid fa-dollar-sign"></i> 39.99
+                        </div>
+                    </div>
+                    <div class="bg-white flex flex-cols space-x-5 py-5">
+                        <div class="bg-gray-300">
+                            <img class="px-2 py-2 w-20 bg-gray-200" src="./c2-assets/tomato2.jpg" alt="">
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-star"></i> 4.5
+                            <h4 class="text-xs font-bold">tomato 1 KG</h4>
+                            <i class="fa-solid fa-dollar-sign"></i> 39.99
+                        </div>
+                    </div>
+
+
+                   </div>
+            </div>
+
+         </Section>
          
 
     </main>
